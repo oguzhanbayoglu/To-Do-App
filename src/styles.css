@@ -1,0 +1,99 @@
+body {
+  background-color: #1a1c21;
+  height: 80vh;
+}
+#root {
+  font-family: Albert Sans;
+  height: 100%;
+}
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+h1 {
+  color: white;
+  margin: 2rem;
+}
+h2 {
+  color: white;
+}
+form {
+  margin-bottom: 2rem;
+}
+label {
+  background-color: rgb(73, 81, 93);
+  padding: 1rem;
+  border-radius: 5rem;
+}
+input {
+  background-color: transparent;
+  height: 2rem;
+  border-radius: 5rem;
+  border: none;
+  text-indent: 10px;
+  width: 20rem;
+  margin-right: 1rem;
+  color: white;
+  font-family: Albert Sans;
+}
+.add {
+  background-color: rgb(221, 225, 235);
+  height: 2rem;
+  border-radius: 5rem;
+  border: none;
+  width: 5rem;
+  margin-right: 1rem;
+  color: #1a1c21;
+  font-family: Albert Sans;
+  cursor: pointer;
+}
+.deleteAll,
+.delete,
+.shown,
+.edit {
+  background-color: #e95858;
+  border: none;
+  height: 2rem;
+  min-width: 2rem;
+  border-radius: 5rem;
+  color: white;
+  font-family: Albert Sans;
+  cursor: pointer;
+}
+.delete {
+  width: 5rem;
+}
+.shown {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  min-width: 8rem;
+  height: 40px;
+}
+.edit {
+  background-color: #4ac0c0;
+}
+.todoItemCon {
+  background-color: #34373e;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #34373e;
+  width: 468px;
+  height: 2rem;
+  align-items: center;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+/* timer */
+
+.timer {
+  color: white;
+}
